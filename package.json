@@ -1,0 +1,38 @@
+{
+  "name": "hapi-backend",
+  "version": "1.0.0",
+  "description": "this is hapi backend boilermaker",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run start:dev",
+    "start:dev": "cross-env NODE_ENV=development nodemon server.js --dev",
+    "start:prod": "cross-env NODE_ENV=production node server.js --prod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "amjesh",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/basic": "^6.0.0",
+    "@hapi/boom": "^9.0.0",
+    "@hapi/glue": "^7.0.0",
+    "@hapi/good": "^9.0.0",
+    "@hapi/good-console": "^9.0.0",
+    "@hapi/good-squeeze": "^6.0.0",
+    "@hapi/hapi": "^19.1.1",
+    "@hapi/inert": "^6.0.1",
+    "@hapi/vision": "^6.0.0",
+    "bcrypt": "^4.0.1",
+    "config": "^3.3.0",
+    "dotenv": "^8.2.0",
+    "hapi-auth-jwt2": "^9.0.1",
+    "hapi-dev-errors": "^4.0.0",
+    "hapi-swagger": "^12.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.3",
+    "redis": "^3.0.2",
+    "uuidv4": "^6.0.5"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.0"
+  }
+}

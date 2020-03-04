@@ -1,0 +1,24 @@
+{
+    "appName": "hapi-18-boilerplate",
+    "version":"1.0.0",
+    "port": 9000,
+    "debug": {
+      "request": [
+        "error",
+        "info"
+      ],
+      "log": [
+        "info",
+        "error",
+        "warning"
+      ]
+    },
+    "connections": {
+      "db": "mongodb+srv://test:psingh_101@cluster0-zatkc.mongodb.net/test?retryWrites=true&w=majority"
+    },
+    "constants": {
+      "EXPIRATION_PERIOD": "730h",
+      "JWT_SECRET": "jwtsecret"
+    }
+  }
+  
