@@ -21,7 +21,7 @@
     "@hapi/hapi": "^19.1.1",
     "@hapi/inert": "^6.0.1",
     "@hapi/vision": "^6.0.0",
-    "bcrypt": "^4.0.1",
+    "bcrypt": "^5.0.0",
     "config": "^3.3.0",
     "dotenv": "^8.2.0",
     "hapi-auth-jwt2": "^9.0.1",
